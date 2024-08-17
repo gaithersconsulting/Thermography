@@ -2,6 +2,16 @@
 <html lang="en">
 
 <head>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-FLBLLK28W1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'G-FLBLLK28W1');
+    </script>
+
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
     
@@ -14,7 +24,7 @@
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <meta http-equiv="Content-Language" content="en">
     <meta name="robots" content="index, follow">
-    <title>Gaithers Consulting</title>
+    <title>Services - Gaithers Consulting</title>
     <!-- Favicon-->
     <link rel="icon" type="image/x-icon" href="../assets/therm-favicon-2.png" />
     <!-- Bootstrap icons-->
@@ -24,25 +34,44 @@
     <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic,700italic" rel="stylesheet"
         type="text/css" />
     <!-- Core theme CSS (includes Bootstrap)-->
-    <link href="../css/contact.css" rel="stylesheet" />
+    <link href="../css/level2.css" rel="stylesheet" />
+    <link rel="import" href="forensic-investigations.html">
 </head>
 
 <body>
     <!-- Navigation-->
-    <nav class="navbar navbar-light bg-light static-top">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light static-top">
         <div class="container">
             <div class="justify-content-start">
                 <a class="navbar-brand" href="../index.html">Gaithers Consulting</a>
-                <a class="navbar-brand" href="../index.html">Certified Thermography</a>
             </div>
-            <div class="justify-content-end">
-                <a class="navbar-brand" href="certifications.html" title="Certificate Id # 17380">
-                    <img src="../assets/infraspection-seal.png" alt="Certificate Id # 17380" width="30" height="30"
-                        class="d-inline-block align-text-top">
-                    Credentials
-                </a>
-                <a class="navbar-brand" href="services.html">Services</a>
-                <a class="btn btn-primary" href="contact.html">Contact Us</a>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item"><a class="nav-link" href="https://infraspectionstore.mybigcommerce.com/"
+                            target="_blank">Infraspection Store</a></li>
+                    <li class="nav-item"><a class="nav-link" href="../about/certifications.html" title="Certificate Id # 17380">
+                            <img src="../assets/infraspection-seal.png" alt="Certificate Id # 17380" width="30"
+                                height="30" class="d-inline-block align-text-top">
+                            Certifications
+                        </a></li>
+                    
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" id="navbarDropdown" href="#" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">Services</a>
+                        <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="inspection-maintenance.html"
+                                    title="inspection and maintenance services">Inspection & Maintenance</a></li>
+                            <li><a class="dropdown-item" href="building-diagnostics.html"
+                                    title="building diagnostic services">Building Diagnostics</a></li>
+                            <li><a class="dropdown-item" href="forensic-investigations.html">Forensic
+                                    Investigations</a></li>
+
+                            <!-- <li><hr class="dropdown-divider" /></li> -->
+
+                        </ul>
+                    </li>
+                    <li class="nav-item me-auto"><a class="btn btn-primary" href="#">Contact Us</a>
+                </ul>
             </div>
         </div>
     </nav>
@@ -63,6 +92,11 @@
             </div>
         </div>
     </section>
+
+    <template id="imported-template"></template>
+
+    <div id="content-container"></div>
+
     <!-- Image Showcases-->
     <section class="showcase">
         <div class="container-fluid p-0">
@@ -306,31 +340,35 @@
     <footer class="footer bg-darker">
         <div class="container">
             <div class="row">
-                <div class="col-lg-6 h-100 text-center text-lg-start my-auto">
+                <div class="col-lg-4 h-100 text-center text-lg-start my-auto">
                     <ul class="list-inline mb-2">
                         <li class="list-inline-item"><a href="services.html">Services</a></li>
                         <li class="list-inline-item">⋅</li>
-                        <li class="list-inline-item"><a href="certifications.html">Credentials</a></li>
+                        <li class="list-inline-item"><a href="../about/certifications.html">Certifications</a></li>
                         <li class="list-inline-item">⋅</li>
-                        <li class="list-inline-item"><a href="contact.html">Contact</a></li>
-
+                        <li class="list-inline-item"><a href="../about/contact.html">Contact</a></li>
+                        <li class="list-inline-item">⋅</li>
+                        <li class="list-inline-item">
+                            <a class="navbar-brand" href="https://infraspectionstore.mybigcommerce.com/" target="_blank">Infraspection Store</a>
+                        </li>
                     </ul>
                          
                 </div>
-                <div class="col-lg-6 h-100 text-center text-lg-end my-auto">
-                    <p class="text-muted small mb-4 mb-lg-0">&copy; Gaithers Consulting <span id="year">0000</span>. All Rights Reserved.</p>
-<!--                     
+                <div class="col-lg-4 h-100 text-center text-lg-center my-auto">
                     <ul class="list-inline mb-0">
                         <li class="list-inline-item me-4">
-                            <a href="#!"><i class="bi-facebook fs-3"></i></a>
+                            <a href="https://www.facebook.com/profile.php?id=61564605591077" target="_blank"><i class="bi-facebook fs-3"></i></a>
                         </li>
-                        <li class="list-inline-item me-4">
+                        <!-- <li class="list-inline-item me-4">
                             <a href="#!"><i class="bi-twitter fs-3"></i></a>
                         </li>
                         <li class="list-inline-item">
                             <a href="#!"><i class="bi-instagram fs-3"></i></a>
-                        </li>
-                    </ul> -->
+                        </li> -->
+                    </ul>
+                </div>
+                <div class="col-lg-4 h-100 text-center text-lg-end my-auto">
+                    <p class="text-muted small mb-4 mb-lg-0">&copy; Gaithers Consulting <span id="year">0000</span>. All Rights Reserved.</p>
                 </div>
             </div>
         </div>
@@ -339,7 +377,9 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
     <!-- Core theme JS-->
     <script src="../js/scripts.js"></script>
-  
+    <script>
+        // window.onload = window.loadExternalHTML('content-container', 'forensic-investigations.html');
+    </script>
 </body>
 
 </html>

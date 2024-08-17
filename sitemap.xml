@@ -1,25 +1,43 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://gaithersconsulting.github.com/thermograpy</loc>
+    <loc>https://gaithersconsulting.github.com/thermograpy/index.html</loc>
     <lastmod>2024-08-01</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://gaithersconsulting.github.com/thermograpy/about/services</loc>
-    <lastmod>2024-08-01</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
-  </url>
-   <url>
-    <loc>https://gaithersconsulting.github.com/thermograpy/about/contact</loc>
+    <loc>https://gaithersconsulting.github.com/thermograpy/services/forensic-investigations.html</loc>
     <lastmod>2024-08-01</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://gaithersconsulting.github.com/thermograpy/about/certifications</loc>
+    <loc>https://gaithersconsulting.github.com/thermograpy/services/inspepction-maintenance.html</loc>
+    <lastmod>2024-08-01</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://gaithersconsulting.github.com/thermograpy/services/building-diagnostics.html</loc>
+    <lastmod>2024-08-01</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://gaithersconsulting.github.com/thermograpy/services/index.html</loc>
+    <lastmod>2024-08-01</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.7</priority>
+  </url>
+   <url>
+    <loc>https://gaithersconsulting.github.com/thermograpy/about/contact.html</loc>
+    <lastmod>2024-08-01</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://gaithersconsulting.github.com/thermograpy/about/certifications.html</loc>
     <lastmod>2024-08-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
