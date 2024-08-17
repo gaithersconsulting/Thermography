@@ -10839,10 +10839,6 @@ textarea.form-control-lg {
   padding-top: 7rem;
   padding-bottom: 7rem;
 }
-.general-content {
-  padding-top: 3rem;
-  padding-bottom: 3rem;
-}
 .features-icons .features-icons-item {
   max-width: 20rem;
 }
@@ -10858,8 +10854,8 @@ header.masthead {
   background-color: #343a40;
   background: url("../assets/hero-2.png") no-repeat center center;
   background-size: cover;
-  padding-top: 4rem;
-  padding-bottom: 4rem;
+  padding-top: 8rem;
+  padding-bottom: 8rem;
 }
 header.masthead:before {
   content: "";
@@ -10876,8 +10872,8 @@ header.masthead h1, header.masthead .h1 {
 }
 @media (min-width: 768px) {
   header.masthead {
-    padding-top: 6rem;
-    padding-bottom: 6rem;
+    padding-top: 12rem;
+    padding-bottom: 12rem;
   }
   header.masthead h1, header.masthead .h1 {
     font-size: 3rem;
